@@ -2,7 +2,7 @@ import requests, demjson ,re,time,json
 
 # 推送不加了感觉没啥用
 # 把值得买的cookie放入下面的单引号里面  有几个帐号就弄几个（默认设置了3个 根据自己情况改）
-cookie_list = ['','','']
+cookie_list = ['__ckguid=qYO2Qf9g1gIenv4yo4N8ll; device_id=21307064331673975655382201ebf0f12a5d1c097fd9a3c1a3e9ee082a; homepage_sug=a; r_sort_type=score; footer_floating_layer=0; sess=BA-1UTArRd5RkU8RyjhusDSlXvfqBvG/F8gyr21LNExNI99y6BidRAHcBDmJvnVfmV3Fn/FM7t865ioxMWn7SvXSRD+AweHWvAhtxXf7ylX2Tc4KHSFz/V5M1Vz; user=user:6997436914|6997436914; smzdm_id=6997436914; ad_date=22; bannerCounter=[{"number":0,"surplus":1},{"number":0,"surplus":1},{"number":0,"surplus":1},{"number":0,"surplus":1},{"number":0,"surplus":1},{"number":0,"surplus":1}]; ad_json_feed={}; _zdmA.uid=ZDMA.Pj9j2ORIC.1674399839.2419200; _zdmA.vid=*; sensorsdata2015jssdkcross={"distinct_id":"185c0b96fdb4b7-0b8d4652f72445-1a343370-2073600-185c0b96fdc2a2","first_id":"","props":{"$latest_traffic_source_type":"直接流量","$latest_search_keyword":"未取到值_直接打开","$latest_referrer":"","$latest_landing_page":"https://www.smzdm.com/"},"$device_id":"185c0b96fdb4b7-0b8d4652f72445-1a343370-2073600-185c0b96fdc2a2"}; Hm_lvt_9b7ac3d38f30fe89ff0b8a0546904e58=1673975657,1674313764,1674399839; Hm_lpvt_9b7ac3d38f30fe89ff0b8a0546904e58=1674399839; _zdmA.time=1674399840104.0.https://www.smzdm.com/','','']
 # 活动id
 active_id = ['ljX8qVlEA7','AlZE6eX8Ky']
 
